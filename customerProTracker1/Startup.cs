@@ -26,7 +26,7 @@ namespace customerProTracker1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            string connection = @"Server=tcp:customerloggerdbserver.database.windows.net,1433;Initial Catalog=CustomerLogger_db;Persist Security Info=False;User ID=shaneCustomer;Password=Jennie1084;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string connection = @"Server=tcp:customerloggerdbserver.database.windows.net,1433;Initial Catalog=CustomerLogger_db;Persist Security Info=False;User ID=shaneCustomer;Password=password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
              
             if (System.Diagnostics.Debugger.IsAttached)
             {
